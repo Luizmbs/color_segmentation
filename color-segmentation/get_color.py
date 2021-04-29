@@ -54,7 +54,7 @@ while True:
         break    
     elif key == ord("c"):
         break
-
+#mudança
 refPt = [(x_start, y_start), (x_end, y_end)]
 if len(refPt) == 2:
     roi = clone[refPt[0][1]:refPt[1][1], refPt[0][0]:refPt[1][0]]
